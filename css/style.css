@@ -1,0 +1,71 @@
+/* ======= navbar css start ======== */
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-nav{
+    gap: 40px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: black;
+    
+}
+.navbarbtn{
+    font-weight: 700;
+      font-size: 18px;
+      color: red;
+      border: 1px solid black;
+      transition: all linear 0.3s;
+      padding: 8px 20px;
+      border-radius: 20px;
+}
+.navbarbtn:hover{
+    background-image: linear-gradient(to bottom right, red, yellow);
+      color: white;
+      border: 1px solid transparent;
+      
+}
+/* ======= navbar css end ======== */
+
+/* ====== banner css start ======== */
+.carousel-item img{
+    height: 900px;
+    object-fit: cover;
+}
+/* ====== banner css end ======== */
+
+/* ======== grid css start ======== */
+#grid{
+    margin-bottom: 50px;
+}
+.gridHeading{
+    text-align: center;
+    padding: 100px 0 20px;
+}
+.gridHeading h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    color: blue;
+}
+.row{
+    padding-top: 15px;
+}
+.red{
+    height: 50px;
+    background-color: red;
+
+}
+.pppppp{
+    margin-top: 100px;
+}
+.blue{
+    height: 50px;
+    background-color: rgb(0, 170, 255);
+}
+/* ======== grid css end ======== */
